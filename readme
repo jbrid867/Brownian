@@ -1,0 +1,8 @@
+ WILL ONLY RUN ON CUDA ENABLE COMPUTERS. REG IS BROKEN
+
+if cuda enabled:
+
+make par
+./run
+
+program generates a lattice of crowders, places the protein and then equilibrates the system. Cuda generates the random numbers for moving the particles.
