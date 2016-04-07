@@ -28,4 +28,5 @@
 *.app
 
 makefile~
+readme~
 run
