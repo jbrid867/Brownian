@@ -19,3 +19,4 @@ par: test.cpp
 	${CC} -c brownsys.cpp ${OMP}
 	${NVC} neighbors.cu
 	${NVL} run test.o proteins.o brownsys.o neighbors.o
+	rm -f *.o
